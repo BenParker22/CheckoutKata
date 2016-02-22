@@ -1,5 +1,4 @@
 import org.scalatest.FunSuite
-import Main._
 
 class SetSuite extends FunSuite {
 
@@ -18,10 +17,9 @@ class SetSuite extends FunSuite {
 //  test("Entering C 20 should create such rule") {
 //    assert(enterRule(Vector(), "C 20") === enterRule(Vector(new Rule("C", 20)), readNewRule))
 //  }
-
-  test("Entering D 20 4 for 70 should create such rule") {
-    assert(createRuleFromString("D 20 4 for 70") === new Rule("D", 20, Some(4, 70)))
-  }
+//  test("Entering D 20 4 for 70 should create such rule") {
+//    assert(createRuleFromString("D 20 4 for 70") === new Rule("D", 20, Some(4, 70)))
+//  }
 //
 //  test("Entering D 20 5 should error") {
 //    assert(createRuleFromString("D 20 5") == throw new Error("Unknown input"))
