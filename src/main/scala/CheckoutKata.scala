@@ -66,7 +66,7 @@ object Main extends App {
     }
   }
 
-  enterRule(Vector(), StdIn.readLine().toLowerCase)
+  enterRule(Vector(), readNewRule)
 }
 
 class Rule(val key: String, unitPrice: Int, specialPrice: Option[(Int, Int)] = None) {
